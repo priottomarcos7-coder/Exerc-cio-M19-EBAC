@@ -12,6 +12,9 @@
   "type": "commonjs",
   "dependencies": {
     "cypress": "^15.11.0",
-    "cypress-plugin-api": "^2.11.2"
+    "cypress-plugin-api": "^2.11.2" 
+  },
+  "scripts": {
+    "cy:run": "cypress run"
   }
 }
