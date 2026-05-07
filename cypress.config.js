@@ -14,4 +14,4 @@ module.exports = defineConfig({
 
     baseUrl: "http://host.docker.internal:3000/api/"
   },
-});
+}); 

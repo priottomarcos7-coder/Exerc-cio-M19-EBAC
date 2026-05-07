@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "cypress run"
   },
   "keywords": [],
   "author": "",
@@ -12,9 +13,6 @@
   "type": "commonjs",
   "dependencies": {
     "cypress": "^15.11.0",
-    "cypress-plugin-api": "^2.11.2" 
-  },
-  "scripts": {
-    "cy:run": "cypress run"
+    "cypress-plugin-api": "^2.11.2"
   }
 }

@@ -1,4 +1,4 @@
-FROM cypress/included:13.6.2
+FROM cypress/included:15.11.0
 
 WORKDIR /e2e
 
@@ -8,4 +8,4 @@ RUN npm install
 
 COPY . .
 
-CMD ["cypress", "run"]
+CMD ["npm", "run", "cy:run"]
